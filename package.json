@@ -14,7 +14,7 @@
   "author": "Quentin Diebold",
   "license": "ISC",
   "devDependencies": {
-    "@gfusee/elrond-wasm-as": "^0.0.3",
+    "@gfusee/elrond-wasm-as": "^0.0.4",
     "@types/node": "^18.0.3",
     "assemblyscript": "^0.21.2",
     "ts-node": "^10.8.2",
