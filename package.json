@@ -4,12 +4,12 @@
   "description": "Empty MultiversX smart contract, written in AssemblyScript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run scenario",
+    "test": "npm run scenarios",
     "asbuild:debug": "asc assembly/index.ts --target debug",
     "asbuild:release": "asc assembly/index.ts --target release",
     "asbuild": "npm run asbuild:release",
     "build": "npm run asbuild",
-    "scenario": "$HOME/multiversx-sdk/vmtools/run-scenarios scenario"
+    "scenarios": "$HOME/multiversx-sdk/vmtools/run-scenarios scenarios"
   },
   "author": "Quentin Diebold",
   "license": "ISC",
